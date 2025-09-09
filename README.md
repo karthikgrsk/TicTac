@@ -12,8 +12,11 @@ A simple **command-line Tic Tac Toe game** built in Java. It supports **n × n b
 
 ---
 
-🎲 How to Play
 
+
+
+## 🎲 How to Play
+```
 The board starts empty.
 
 Players take turns entering their move in the format:
@@ -53,16 +56,3 @@ O - -
 Change the board size in Main.java:
 
 char[][] board = new char[5][5]; // Example: 5x5 board
-
-
-## 🛠️ Installation & Run
-```bash
-# Clone the repository
-git clone https://github.com/your-username/cli-tictac-java.git
-cd cli-tictac-java
-
-# Compile the program
-javac Main.java
-
-# Run the program
-java Main
